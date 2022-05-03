@@ -645,7 +645,7 @@ yarn-add-D-plugin-webpack-stats:
 
 yarn-add-D-dotenv-webpack:
 	docker compose exec web yarn add -D dotenv-webpack
-	
+
 # ---- PWA化 ----
 
 # https://www.npmjs.com/package/workbox-sw
@@ -657,7 +657,7 @@ yarn-add-D-dotenv-webpack:
 # https://qiita.com/umashiba/items/1157e7e520f668417cf0
 
 yarn-add-D-pwa:
-	docker compose exec web yarn add -D workbox-sw workbox-webpack-plugin webpack-pwa-manifest webpack-assets-manifest	
+	docker compose exec web yarn add -D workbox-sw workbox-webpack-plugin webpack-pwa-manifest webpack-assets-manifest
 
 # ==== jQuery ====
 
@@ -815,12 +815,12 @@ yarn-add-D-html-react-parser:
 # https://www.npmjs.com/package/react-paginate
 yarn-add-D-react-paginate:
 	docker compose exec web yarn add -D react-paginate @types/react-paginate
-	
+
 # ---- react-countup ----
 
 # https://www.npmjs.com/package/react-countup
 yarn-add-D-react-countup:
-	docker compose exec web yarn add -D react-countup	
+	docker compose exec web yarn add -D react-countup
 
 # ==== Create React App ====
 
@@ -858,8 +858,8 @@ yarn-create-react-app-redux-ts:
 # npx create-react-app [プロジェクト名] --template cra-template-pwa-typescript
 
 yarn-create-react-app-ts-pwa:
-	docker compose exec web yarn create react-app --template cra-template-pwa-typescript .	
-	
+	docker compose exec web yarn create react-app --template cra-template-pwa-typescript .
+
 # ---- CRACO -----
 
 # https://github.com/gsoft-inc/craco/blob/master/packages/craco/README.md
@@ -1076,8 +1076,13 @@ yarn-add-react-query:
 # ==== Next.js ====
 
 # https://nextjs.org/docs
+# https://nextjs.org/docs/getting-started
 # https://nextjs-ja-translation-docs.vercel.app/docs/getting-started
 # https://zenn.dev/otanu/articles/f0a0b2bd0d9c44
+
+# tutorial
+# https://nextjs.org/learn/basics/create-nextjs-app
+# npx create-next-app nextjs-blog --use-npm --example "https://github.com/vercel/next-learn/tree/master/basics/learn-starter"
 
 # Automatic Setup
 yarn-create-next-app:
@@ -1095,7 +1100,7 @@ yarn-create-next-app-ts:
 #   "lint": "next lint"
 # }
 yarn-add-D-next:
-	yarn add -D next
+	yarn add -D next react react-dom
 
 # ==== UI ====
 
@@ -1153,10 +1158,10 @@ yarn-add-D-react-hook-form-yup:
 
 yarn-add-D-react-hook-form-zod:
 	docker compose exec web yarn add -D zod react-hook-form @hookform/resolvers @hookform/error-message
-	
+
 # Formik
 yarn-add-D-formik-yup:
-	docker compose web yarn add -D yup @types/yup formik	
+	docker compose web yarn add -D yup @types/yup formik
 
 
 # ==== TypeScript =====
@@ -1512,7 +1517,7 @@ yarn-add-D-proxy:
 # https://qiita.com/mt_middle/items/543f83393c357ad3ab12
 yarn-add-D-morgan:
 		docker compose exec web yarn add -D morgan @types/morgan
-		
+
 # Sqlite3
 yarn-add-D-sqlite3:
 	docker compose exec web yarn add -D sqlite3
@@ -1529,7 +1534,7 @@ yarn-add-D-bodyparser:
 # }
 yarn-add-D-nodedev:
 	docker compose exec web yarn add -D node-dev
-	
+
 # ==== Laravel Mix ====
 
 # laravel-mix
