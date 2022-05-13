@@ -79,8 +79,8 @@ redisinsight/
 .vscode/
 
 # 環境変数
-# env/
-# Makefile.env
+env/
+Makefile.env
 .env
 .env.*
 # !.env.example
@@ -90,7 +90,7 @@ images/
 *.txt
 *.csv
 review/
-# sample/
+sample/
 share/
 vagrant_data/
 

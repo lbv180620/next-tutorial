@@ -1,2 +1,0 @@
-GNAME=staff
-# GNAME=vagrant
