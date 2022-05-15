@@ -13,7 +13,7 @@ export async function getStaticPaths() {
 }
 
 export async function getStaticProps({ params }) {
-  const postData = await getPostData(params.id.join("/")); // rezero/rem
+  const postData = await getPostData(params.id);
   return {
     props: {
       postData,
