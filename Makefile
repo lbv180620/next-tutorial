@@ -1554,6 +1554,18 @@ yarn-add-D-bodyparser:
 yarn-add-D-nodedev:
 	docker compose exec web yarn add -D node-dev
 
+# node-fetch
+# サーバーサイドでfetchメソッドが使える
+yarn-add-D-node-fetch:
+	docker compose exec web yarn add -D node-fetch
+
+
+# js-base64
+# APIで取得したデータをデコードできる
+yarn-add-D-js-base64:
+	docker compose exec web yarn add -D js-base64
+
+
 # ==== Laravel Mix ====
 
 # laravel-mix
