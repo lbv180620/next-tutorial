@@ -1102,6 +1102,25 @@ yarn-create-next-app-ts:
 yarn-add-D-next:
 	yarn add -D next react react-dom
 
+# gray-matter
+# https://github.com/jonschlinkert/gray-matter
+# npm install --save gray-matter
+yarn-add-D-gray-matter:
+	docker compose exec web yarn add -D gray-matter
+
+# remark
+# https://github.com/remarkjs/remark
+# npm install --save remark remark-html
+yarn-add-D-remark:
+	docker compose exec web yarn add -D remark remark-html
+
+# date-fns
+# https://date-fns.org/
+# npm install --save date-fns
+yarn-add-D-date-fns:
+	docker compose exec web yarn add -D date-fns
+
+
 # ==== UI ====
 
 # Material UI
