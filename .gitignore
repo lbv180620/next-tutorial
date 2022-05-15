@@ -86,7 +86,7 @@ Makefile.env
 # !.env.example
 
 # その他
-images/
+# images/
 *.txt
 *.csv
 review/
